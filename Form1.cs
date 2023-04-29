@@ -19,6 +19,8 @@ namespace Word_Separator
 
         private void btnSeparateWord_Click(object sender, EventArgs e)
         {
+            lblOutSeparatedWord.Text = "";
+
             string word = tboxEntryWord.Text.Trim();
 
             List<string> charList = new List<string>();
